@@ -33,7 +33,7 @@ const Navbar = () => {
                 {navLinks.map((nav, index) => (
                   <li key={nav.id} 
                   className={`font-poppins font-normal curose-pointer text-[16px] 
-                  ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`}>  {/*need to have a key, bc we are inside a map*/}
+                  ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`}> 
                     <a href={`#${nav.id}`}>
                       {nav.title}
                     </a>
