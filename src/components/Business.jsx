@@ -1,9 +1,13 @@
-import React from 'react'
+import {features} from '../constants';
+import  styles, {layout} from '../style';
+import Button from './Button';
 
-function Business() {
-  return (
-    <div>Business</div>
+
+Business = () => {
+  return ( 
+    <div>
+
+    </div>
   )
-}
-
+  }
 export default Business
