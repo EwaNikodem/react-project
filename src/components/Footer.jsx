@@ -1,9 +1,11 @@
-import React from 'react'
+import styles from "../style";
+import { logo } from "../assets";
+import { footerLinks, socialMedia } from "../constants";
 
-function Footer() {
-  return (
-    <div>Footer</div>
-  )
-}
+const Footer = () => (
+  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+    
+  </section>
+);
 
-export default Footer
+export default Footer;
